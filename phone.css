@@ -1,0 +1,130 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: rgb(148, 148, 148);
+}
+.container {
+	width: 328px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 5px;
+}
+.mobile_tittle {
+	width: 100%;
+	height: 20px;
+	border-radius: 3px;
+	font-size: 22px;
+	margin: 3px 20px 20px;
+	display: flex;
+}
+h6 {
+	text-align: left;
+	width: 200px;
+}
+img[alt='otp'] {
+	margin-left: 80px;
+	width: 170px;
+	height: 120px;
+	margin-top: 20px;
+}
+i {
+	font-size: 12px;
+	padding: 2px;
+}
+span {
+	font-size: 20px;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+h5 {
+	text-align: center;
+	font-size: 18px;
+	margin-top: -21px;
+	width: 280px;
+	color: rgb(59, 59, 59);
+	margin-left: 20px;
+}
+.container p {
+	text-align: center;
+	padding: 0 30px;
+	color: rgb(97, 97, 97);
+	font-size: 15px;
+	width: 242px;
+	margin: 20px auto 0px auto;
+}
+.otp_box {
+	text-align: center;
+	margin-top: 17px;
+	padding-bottom: 18px;
+}
+input[type='text'] {
+	width: 35px;
+	height: 35px;
+	border: 1px solid rgb(241, 241, 241);
+	border-bottom: 2px solid rgb(145, 140, 140);
+	outline: none;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+label {
+	color: rgb(61, 61, 61);
+}
+label h4 {
+	margin-bottom: -26px;
+	font-size: 14px;
+	margin-left: 30px;
+	margin-top: 24px;
+}
+label input {
+	width: 140px;
+	margin-left: 30px;
+	outline: none;
+	height: 20px;
+	border: none;
+	background-color: rgb(255, 249, 249);
+}
+label button {
+	width: 80px;
+}
+p span {
+	color: #000;
+	font-size: 15px;
+	padding: 0px;
+}
+button {
+	background: rgb(255, 238, 0);
+	border: none;
+	outline: none;
+	padding: 10px;
+	text-align: center;
+	font-weight: 900px;
+	border-radius: 8px;
+	width: calc(100% - 30px);
+	margin: 20px 15px 15px 15px;
+}
+form input {
+	font-size: 22px;
+	width: 102px;
+	border: none;
+	height: 35px;
+	margin-bottom: 20px;
+	background: transparent;
+	user-select: none;
+	text-align: center;
+}
+hr {
+	width: 140px;
+	margin: 0px auto 20px auto;
+	height: 3px;
+	background-color: rgb(219, 215, 215);
+	border: none;
+}
